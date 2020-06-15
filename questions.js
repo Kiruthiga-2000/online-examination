@@ -1,14 +1,6 @@
 
 var users = [
     {
-      username: "deepan",
-      password: "1234"
-    },
-    {
-      username: "vishwa",
-      password: "5678"
-    },
-    {
       username: "kiruthiga",
       password: "9012"
     }
