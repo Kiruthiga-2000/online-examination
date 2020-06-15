@@ -34,4 +34,3 @@ function timer() {
 }
 
 
-document.getElementById("modal_body").innerHTML = "you have attended "+localStorage.getItem('attended')+" out of" +question.length+". Are You sure want to submit ?";
