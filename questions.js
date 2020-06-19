@@ -1,7 +1,7 @@
 
 var users = [
     {
-      username: "kiruthiga",
+      username: "kiruthiga@gmail.com",
       password: "9012"
     }
   ];
