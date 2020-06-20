@@ -15,7 +15,7 @@ if(marks > 5){
   
    
   document.getElementById("wrong").innerHTML = question.length - marks;
-  document.getElementById("pass_score").innerHTML = 5 ; //change later dynamicly
+  document.getElementById("pass_score").innerHTML = test_info[0].Passing_marks;
 
   document.getElementById("percentage").innerHTML = marks/question.length * 100 + "%" ;
   document.getElementById("progress_percentage").innerHTML = marks/question.length * 100 + "%" ;
