@@ -30,7 +30,6 @@ var test_info =[
     {
         test_name: "Web Development",
         test_duration: "15 minutes",
-        negative_marks: "No",
         Passing_marks: "8",
         no_questions: "20",
     }
@@ -43,29 +42,24 @@ var duration_of_test = 15; // Enter in Minutes
 
 
 var question = [
-    //0
     {
         title: "In which HTML element do we put the javascript?",
         options: ["&lt;head&gt;","&ltbody&gt;","&ltscript&gt;","&ltjs&gt;"],
         answer: "&ltscript&gt;"
     },
-    //1
     {
         title: "What is the correct JavaScript syntax to change the content of the HTML element below?&lt;p id=\"demo\"&gt;This is a demonstration.&lt;/p&gt;",
         options: ["document.getElementById(\"demo\").inner HTML=\"Hello World!\";","#demo.innerHTML=\"Hello World!\";","demo.getElement=\"hello world\";","document.getElementById(\"p\").inner HTML=\"Hello World!\";"],
         answer: "document.getElementById(\"demo\").inner HTML=\"Hello World!\";"
     },
-    //2
     {
         title: "What is the correct syntax for referring to an external script called \"xxx.js\"?",
         options: ["script&lt;src=\"hjddg\"&gt;","script&lt;href=\"hjddg\"&gt;","script&lt;src=\'\'&gt;","script&lt;name=\"hjddg\"&gt;"],
         answer: "script&lt;src=\"hjddg\"&gt;"
     },
-    // 3
-    {   //print this title now
+    {   
         title: "Which of the following function of String object returns the calling string value converted to upper case?",
-        options: ["toLocaleUpperCase()"," toUpperCase()","toString()","substring()"],
-                        //0                     1               2           3
+        options: ["toLocaleUpperCase()"," toUpperCase()","toString()","substring()"],           
         answer: " toUpperCase()"
     },
     {
