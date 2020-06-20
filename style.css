@@ -9,7 +9,7 @@ html,body{
     background-position: center;
    position: fixed;
     background-size: cover;
-    
+     overflow-y: scroll;
     
 }
 .bg-dark1{
