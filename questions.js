@@ -3,6 +3,26 @@ var users = [
     {
       username: "kiruthiga@gmail.com",
       password: "9012"
+    },
+     {
+      username: "kiru@gmail.com",
+      password: "1234"
+    },
+     {
+      username: "dhana@gmail.com",
+      password: "5678"
+    },
+     {
+      username: "lakshmi@gmail.com",
+      password: "2345"
+    },
+     {
+      username: "admin@gmail.com",
+      password: "6789"
+    },
+     {
+      username: "test@gmail.com",
+      password: "0123"
     }
   ];
   
